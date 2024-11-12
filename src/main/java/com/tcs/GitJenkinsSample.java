@@ -11,6 +11,7 @@ public class GitJenkinsSample {
 
 	public static void main(String[] args) {
 		SpringApplication.run(GitJenkinsSample.class, args) ;
+		System.out.println("Hello Jekins");
 	}
 	@RequestMapping("/welcome")
 	public String welcome() {
