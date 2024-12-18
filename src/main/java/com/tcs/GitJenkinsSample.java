@@ -12,6 +12,7 @@ public class GitJenkinsSample {
 	public static void main(String[] args) {
 		SpringApplication.run(GitJenkinsSample.class, args) ;
 		System.out.println("Hello Jekins");
+		System.out.println("Edited to test with pipeline"):
 	}
 	@RequestMapping("/welcome")
 	public String welcome() {
